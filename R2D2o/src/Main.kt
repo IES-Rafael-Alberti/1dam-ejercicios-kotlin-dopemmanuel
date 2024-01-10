@@ -1,9 +1,12 @@
 fun main() {
 
+<<<<<<< HEAD
 
 
 
 
+=======
+>>>>>>> origin/main
     var r2d2pos: List<Int> = moverRobot(10, 5, -2)
     println("X: ${r2d2pos[0]}, Y: ${r2d2pos[1]}, dir: ${orientacionrobot(r2d2pos[2])}")
 
