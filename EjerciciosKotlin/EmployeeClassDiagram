@@ -1,0 +1,10 @@
+// Sistema de Gestión de Empleados
+digraph {
+	A [label=Empleado]
+	B [label=Desarrollador]
+	C [label="Diseñador"]
+	D [label=Gerente]
+	A -> B
+	A -> C
+	A -> D
+}
