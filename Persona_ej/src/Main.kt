@@ -7,6 +7,7 @@ class Persona(var nombre: String, var peso: Double, var altura: Double) {
         this.imc = this.peso / (this.altura * this.altura)
     }
 
+    /**Retorna el valor de imc con solo dos posiciones decimales convertido a string */
     fun obtenerImc() = "%.2f".format(this.imc)
 
     fun estadoImc(): String {
