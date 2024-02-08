@@ -1,8 +1,7 @@
 class Persona(var nombre: String, var peso: Double, var altura: Double) {
     var imc: Double = peso / (altura * altura)
 
-
-        init {
+    init {
         this.imc = this.peso / (this.altura * this.altura)
     }
     constructor(nombre: String) : this(nombre,0.0, 0.0)
